@@ -36,7 +36,7 @@ def preorder(root) -> None:
 
 
 def postorder(root) -> None
-    if root:
+    if root
         postorder(root.left)
         postorder(root.right)
         print(root.data, end = " ")
